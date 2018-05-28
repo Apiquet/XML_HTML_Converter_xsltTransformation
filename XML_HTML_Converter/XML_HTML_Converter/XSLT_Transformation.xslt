@@ -5,7 +5,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   <xsl:template match="/">
     <html>
       <head />
-      <body title="Personnel">
+      <body>
         <p>
           <xsl:for-each select="test-run">
             <xsl:for-each select="test-suite">
@@ -24,14 +24,18 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                               <xsl:value-of select="." />
                             </xsl:for-each>
                             <xsl:if test="@result='Passed'">
+                              <span style="color:green">
                                 <xsl:for-each select="@result">
                                   <xsl:value-of select="." />
                                 </xsl:for-each>
+                              </span>
                             </xsl:if>
                             <xsl:if test="@result='Failed'">
+                              <span style="color:red">
                                 <xsl:for-each select="@result">
                                   <xsl:value-of select="." />
                                 </xsl:for-each>
+                              </span>
                             </xsl:if>
                             <xsl:for-each select="test-suite">
                               <xsl:for-each select="test-case">
@@ -41,14 +45,18 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                                       <xsl:value-of select="." />
                                     </xsl:for-each>
                                     <xsl:if test="@result='Passed'">
+                                      <span style="color:green">
                                         <xsl:for-each select="@result">
                                           <xsl:value-of select="." />
                                         </xsl:for-each>
+                                      </span>
                                     </xsl:if>
                                     <xsl:if test="@result='Failed'">
+                                      <span style="color:red">
                                         <xsl:for-each select="@result">
                                           <xsl:value-of select="." />
                                         </xsl:for-each>
+                                      </span>
                                     </xsl:if>
                                   </li>
                                 </ul>
