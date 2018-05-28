@@ -16,8 +16,8 @@ namespace XML_HTML_Converter
             resolver.Credentials = System.Net.CredentialCache.DefaultCredentials;
             // transform xml file to HTML file
             XslTransform transform = new XslTransform();
-            transform.Load(@"..\..\XLST_Transformation.xslt", resolver);
-            transform.Transform(@"..\..\XML_Report.xml", @"..\HTML_Report.html", resolver);
+            transform.Load(@"..\..\XSLT_Transformation.xslt", resolver);
+            transform.Transform(@"..\..\XML_Report.xml", @"..\..\HTML_Report.html", resolver);
         }
     }
 }
