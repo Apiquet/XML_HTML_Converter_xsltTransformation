@@ -59,7 +59,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                                       </span>
                                     </xsl:if>
                                     <xsl:if test="failure/message">
-                                      <p>
+                                      <p style="color:orange">
                                         <xsl:value-of select="failure/message"/>
                                         <br></br>
                                         <br></br>
