@@ -61,6 +61,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                                     <xsl:if test="failure/message">
                                       <p>
                                         <xsl:value-of select="failure/message"/>
+                                        <br></br>
+                                        <br></br>
+                                        <xsl:if test="contains(output, 'fuji')">
+                                          <xsl:variable name="username" select="substring-after(output,'ScreenShot: ')" />
+                                          <a title="{$username}" href="{$username}">ScreenShot</a>
+                                        </xsl:if>
+                                        <xsl:if test="contains(output, 'Failed to take a screenshot')">
+                                          <xsl:value-of select="output"/>
+                                        </xsl:if>
                                       </p>
                                     </xsl:if>
                                   </li>
