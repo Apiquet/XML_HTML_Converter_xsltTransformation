@@ -1,1 +1,1104 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="119" result="Failed" total="119" passed="104" failed="15" inconclusive="0" skipped="0" asserts="815" engine-version="3.7.0.0" clr-version="4.0.30319.42000" start-time="2018-03-16 05:06:11Z" end-time="2018-03-16 06:01:09Z" duration="3298.515743">
+  <command-line><![CDATA["D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe" D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\Tools\NUnit\..\..\WebTests\WebAppTestSuite\Build\NUnit\TestRunnerConfig.nunit --config=AllProjects --work=\\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332 --params=AppVersion=2.9.1.1;ServerType=QA;BrowserName=chrome]]></command-line>
+  <test-suite type="Assembly" id="1-1133" name="AccountsTests.dll" fullname="D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Build\AccountsTests.dll" runstate="Runnable" testcasecount="119" result="Failed" site="Child" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 06:01:09Z" duration="3297.703287" total="119" passed="104" failed="15" warnings="0" inconclusive="0" skipped="0" asserts="815">
+    <environment framework-version="3.9.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.3.9600" platform="Win32NT" cwd="D:\QA\TCAgent\WD\3ed1d0ebda23a2c5" machine-name="MC-QA-TESTMANAG" user="MC_QA" user-domain="machiningcloud" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="ActiveConfig" value="AllProjects" />
+      <setting name="WorkDirectory" value="\\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332" />
+      <setting name="TestParametersDictionary" value="[AppVersion, 2.9.1.1], [ServerType, QA], [BrowserName, chrome]">
+        <item key="AppVersion" value="2.9.1.1" />
+        <item key="ServerType" value="QA" />
+        <item key="BrowserName" value="chrome" />
+      </setting>
+      <setting name="TestParameters" value="AppVersion=2.9.1.1;ServerType=QA;BrowserName=chrome" />
+      <setting name="BasePath" value="D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Build\NUnit\.\..\" />
+      <setting name="ProcessModel" value="Default" />
+      <setting name="DomainUsage" value="Default" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="ParallelScope" value="Fixtures" />
+      <property name="LevelOfParallelism" value="4" />
+      <property name="Description" value="Accounts Test Cases" />
+      <property name="_PID" value="3852" />
+      <property name="_APPDOMAIN" value="domain-f72f3470-TestRunnerConfig.nunit" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="1-1134" name="AccountsTests" fullname="AccountsTests" runstate="Runnable" testcasecount="119" result="Failed" site="Child" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 06:01:09Z" duration="3297.679693" total="119" passed="104" failed="15" warnings="0" inconclusive="0" skipped="0" asserts="815">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1-1139" name="SingleUser" fullname="AccountsTests.SingleUser" runstate="Runnable" testcasecount="87" result="Failed" site="Child" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:23:06Z" duration="1013.990377" total="87" passed="76" failed="11" warnings="0" inconclusive="0" skipped="0" asserts="495">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1-1145" name="Accounts" fullname="AccountsTests.SingleUser.Accounts" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:07:12Z" duration="60.302861" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <test-suite type="TestFixture" id="1-1130" name="LoginTests" fullname="AccountsTests.SingleUser.Accounts.LoginTests" classname="AccountsTests.SingleUser.Accounts.LoginTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:07:12Z" duration="60.300916" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="Category" value="Accounts" />
+            </properties>
+            <test-case id="1-1131" name="InValid_UserLogin" fullname="AccountsTests.SingleUser.Accounts.LoginTests.InValid_UserLogin" methodname="InValid_UserLogin" classname="AccountsTests.SingleUser.Accounts.LoginTests" runstate="Runnable" seed="622335601" result="Passed" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:06:45Z" duration="33.554543" asserts="1">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1132" name="ValidUserLogin" fullname="AccountsTests.SingleUser.Accounts.LoginTests.ValidUserLogin" methodname="ValidUserLogin" classname="AccountsTests.SingleUser.Accounts.LoginTests" runstate="Runnable" seed="1380457884" result="Passed" start-time="2018-03-16 05:06:45Z" end-time="2018-03-16 05:07:12Z" duration="26.733488" asserts="2">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="1-1142" name="Invoice" fullname="AccountsTests.SingleUser.Invoice" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:08:34Z" duration="142.072984" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="13">
+          <test-suite type="TestFixture" id="1-1093" name="InvoiceTests" fullname="AccountsTests.SingleUser.Invoice.InvoiceTests" classname="AccountsTests.SingleUser.Invoice.InvoiceTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-03-16 05:07:12Z" end-time="2018-03-16 05:08:34Z" duration="81.770125" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="13">
+            <properties>
+              <property name="Category" value="Invoice" />
+            </properties>
+            <test-case id="1-1094" name="InvoiceChangeLanguage" fullname="AccountsTests.SingleUser.Invoice.InvoiceTests.InvoiceChangeLanguage" methodname="InvoiceChangeLanguage" classname="AccountsTests.SingleUser.Invoice.InvoiceTests" runstate="Runnable" seed="1488372210" result="Passed" start-time="2018-03-16 05:07:12Z" end-time="2018-03-16 05:08:00Z" duration="47.787384" asserts="5">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1095" name="InvoicePageDetails" fullname="AccountsTests.SingleUser.Invoice.InvoiceTests.InvoicePageDetails" methodname="InvoicePageDetails" classname="AccountsTests.SingleUser.Invoice.InvoiceTests" runstate="Runnable" seed="2027265953" result="Passed" start-time="2018-03-16 05:08:00Z" end-time="2018-03-16 05:08:34Z" duration="33.982477" asserts="8">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="1-1144" name="BillingTermChange" fullname="AccountsTests.SingleUser.BillingTermChange" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:10:02Z" duration="229.910520" total="3" passed="1" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="21">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1-1126" name="BillingTermChangeTests" fullname="AccountsTests.SingleUser.BillingTermChange.BillingTermChangeTests" classname="AccountsTests.SingleUser.BillingTermChange.BillingTermChangeTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:10:02Z" duration="229.909728" total="3" passed="1" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="21">
+            <properties>
+              <property name="Category" value="Billing" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1127" name="BillingTermChangeAnnuallyToMonthlyWithCreditCard" fullname="AccountsTests.SingleUser.BillingTermChange.BillingTermChangeTests.BillingTermChangeAnnuallyToMonthlyWithCreditCard" methodname="BillingTermChangeAnnuallyToMonthlyWithCreditCard" classname="AccountsTests.SingleUser.BillingTermChange.BillingTermChangeTests" runstate="Runnable" seed="684323808" result="Passed" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:07:52Z" duration="100.062161" asserts="20">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1128" name="BillingTermChangeMonthlyToQuarterlyWithCheckingAccount" fullname="AccountsTests.SingleUser.BillingTermChange.BillingTermChangeTests.BillingTermChangeMonthlyToQuarterlyWithCheckingAccount" methodname="BillingTermChangeMonthlyToQuarterlyWithCheckingAccount" classname="AccountsTests.SingleUser.BillingTermChange.BillingTermChangeTests" runstate="Runnable" seed="853112750" result="Failed" label="Error" start-time="2018-03-16 05:07:52Z" end-time="2018-03-16 05:09:14Z" duration="82.005040" asserts="0">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds]]></message>
+                <stack-trace>
+                  <![CDATA[   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at AccountsTestFramework.TestLibrary.App.Workflows.Billing.AddCheckingAccount(CheckingAccountData account) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Workflows\Billing.cs:line 81
+   at AccountsTests.SingleUser.BillingTermChange.BillingTermChangeTests.BillingTermChangeMonthlyToQuarterlyWithCheckingAccount() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\SingleUser\BillingTermChange\BillingTermChangeTests.cs:line 69]]>
+                </stack-trace>
+              </failure>
+              <output>
+                <![CDATA[ERROR: Failed to take a screenshot. Exception: System.IO.PathTooLongException: The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+   at System.IO.PathHelper.GetFullPathName()
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)
+   at TestManager.Infrastructure.Browser.TakeScreenshot() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\TestManagement\TestManager\Infrastructure\Browser.cs:line 100
+   at AccountsTestFramework.TestSetup.TestBase.AddTestResultAttachments() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestSetup\TestBase.cs:line 35
+]]>
+              </output>
+            </test-case>
+            <test-case id="1-1129" name="BillingTermChangeQuarterlyToAnnuallyWithSepaddAccount" fullname="AccountsTests.SingleUser.BillingTermChange.BillingTermChangeTests.BillingTermChangeQuarterlyToAnnuallyWithSepaddAccount" methodname="BillingTermChangeQuarterlyToAnnuallyWithSepaddAccount" classname="AccountsTests.SingleUser.BillingTermChange.BillingTermChangeTests" runstate="Runnable" seed="463244105" result="Failed" label="Error" start-time="2018-03-16 05:09:14Z" end-time="2018-03-16 05:10:02Z" duration="47.836106" asserts="1">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+              <failure>
+                <message><![CDATA[System.FormatException : The DateTime represented by the string is not supported in calendar System.Globalization.GregorianCalendar.]]></message>
+                <stack-trace>
+                  <![CDATA[   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at AccountsTestFramework.TestLibrary.App.Pages.SubscriptionPage.GetProductBillingDate(ISearchContext productCard) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Pages\SubscriptionPage.cs:line 145
+   at AccountsTestFramework.TestLibrary.App.Pages.SubscriptionPage.IsProductActive(IWebElement productCard) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Pages\SubscriptionPage.cs:line 85
+   at System.Collections.Generic.List`1.FindAll(Predicate`1 match)
+   at AccountsTestFramework.TestLibrary.App.Pages.SubscriptionPage.get_ActiveProductCount() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Pages\SubscriptionPage.cs:line 46
+   at AccountsTests.SingleUser.BillingTermChange.BillingTermChangeTests.BillingTermChangeQuarterlyToAnnuallyWithSepaddAccount() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\SingleUser\BillingTermChange\BillingTermChangeTests.cs:line 135]]>
+                </stack-trace>
+              </failure>
+              <output>
+                <![CDATA[ERROR: Failed to take a screenshot. Exception: System.IO.PathTooLongException: The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+   at System.IO.PathHelper.GetFullPathName()
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)
+   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)
+   at TestManager.Infrastructure.Browser.TakeScreenshot() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\TestManagement\TestManager\Infrastructure\Browser.cs:line 100
+   at AccountsTestFramework.TestSetup.TestBase.AddTestResultAttachments() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestSetup\TestBase.cs:line 35
+]]>
+              </output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="1-1140" name="Subscriptions" fullname="AccountsTests.SingleUser.Subscriptions" runstate="Runnable" testcasecount="33" result="Failed" site="Child" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:19:35Z" duration="803.546169" total="33" passed="32" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="208">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1-1035" name="AcademicSubscriptionTests" fullname="AccountsTests.SingleUser.Subscriptions.AcademicSubscriptionTests" classname="AccountsTests.SingleUser.Subscriptions.AcademicSubscriptionTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2018-03-16 05:10:02Z" end-time="2018-03-16 05:13:20Z" duration="198.413428" total="7" passed="7" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="44">
+            <properties>
+              <property name="Category" value="Subscription" />
+            </properties>
+            <test-case id="1-1036" name="ActivateNewAcademicMc" fullname="AccountsTests.SingleUser.Subscriptions.AcademicSubscriptionTests.ActivateNewAcademicMc" methodname="ActivateNewAcademicMc" classname="AccountsTests.SingleUser.Subscriptions.AcademicSubscriptionTests" runstate="Runnable" seed="2095688814" result="Passed" start-time="2018-03-16 05:10:02Z" end-time="2018-03-16 05:10:23Z" duration="21.013799" asserts="4">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1041" name="ActivateNewAcademicMcWithNonEduAccount" fullname="AccountsTests.SingleUser.Subscriptions.AcademicSubscriptionTests.ActivateNewAcademicMcWithNonEduAccount" methodname="ActivateNewAcademicMcWithNonEduAccount" classname="AccountsTests.SingleUser.Subscriptions.AcademicSubscriptionTests" runstate="Runnable" seed="1415118672" result="Passed" start-time="2018-03-16 05:10:23Z" end-time="2018-03-16 05:10:48Z" duration="25.708204" asserts="2">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1039" name="AddProfessionalMcAfterAcademicMcIsCancelled" fullname="AccountsTests.SingleUser.Subscriptions.AcademicSubscriptionTests.AddProfessionalMcAfterAcademicMcIsCancelled" methodname="AddProfessionalMcAfterAcademicMcIsCancelled" classname="AccountsTests.SingleUser.Subscriptions.AcademicSubscriptionTests" runstate="Runnable" seed="260682934" result="Passed" start-time="2018-03-16 05:10:48Z" end-time="2018-03-16 05:11:30Z" duration="41.286259" asserts="14">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1037" name="CancelAcademicMc" fullname="AccountsTests.SingleUser.Subscriptions.AcademicSubscriptionTests.CancelAcademicMc" methodname="CancelAcademicMc" classname="AccountsTests.SingleUser.Subscriptions.AcademicSubscriptionTests" runstate="Runnable" seed="333127044" result="Passed" start-time="2018-03-16 05:11:30Z" end-time="2018-03-16 05:11:54Z" duration="23.847241" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1038" name="ChangeFromAcademicMcToProfessionalMc" fullname="AccountsTests.SingleUser.Subscriptions.AcademicSubscriptionTests.ChangeFromAcademicMcToProfessionalMc" methodname="ChangeFromAcademicMcToProfessionalMc" classname="AccountsTests.SingleUser.Subscriptions.AcademicSubscriptionTests" runstate="Runnable" seed="481943234" result="Passed" start-time="2018-03-16 05:11:54Z" end-time="2018-03-16 05:12:28Z" duration="34.120531" asserts="7">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1040" name="ChangeFromFreeTrialMcToAcademicMc" fullname="AccountsTests.SingleUser.Subscriptions.AcademicSubscriptionTests.ChangeFromFreeTrialMcToAcademicMc" methodname="ChangeFromFreeTrialMcToAcademicMc" classname="AccountsTests.SingleUser.Subscriptions.AcademicSubscriptionTests" runstate="Runnable" seed="1198391412" result="Passed" start-time="2018-03-16 05:12:28Z" end-time="2018-03-16 05:12:49Z" duration="20.965663" asserts="5">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1042" name="ChangeFromFreeTrialMcToAcademicMcWithNonEduAccount" fullname="AccountsTests.SingleUser.Subscriptions.AcademicSubscriptionTests.ChangeFromFreeTrialMcToAcademicMcWithNonEduAccount" methodname="ChangeFromFreeTrialMcToAcademicMcWithNonEduAccount" classname="AccountsTests.SingleUser.Subscriptions.AcademicSubscriptionTests" runstate="Runnable" seed="1410784264" result="Passed" start-time="2018-03-16 05:12:49Z" end-time="2018-03-16 05:13:20Z" duration="31.471293" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1-1059" name="PaidSubscriptionTests" fullname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests" classname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2018-03-16 05:10:27Z" end-time="2018-03-16 05:15:43Z" duration="315.855726" total="8" passed="8" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="54">
+            <properties>
+              <property name="Category" value="Subscription" />
+            </properties>
+            <test-case id="1-1060" name="ActivateNewProfessionalMc" fullname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests.ActivateNewProfessionalMc" methodname="ActivateNewProfessionalMc" classname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests" runstate="Runnable" seed="1650915302" result="Passed" start-time="2018-03-16 05:10:27Z" end-time="2018-03-16 05:11:03Z" duration="36.281463" asserts="7">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1064" name="AddNewProfessionalMcAfterOldProfessionalMcExpires" fullname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests.AddNewProfessionalMcAfterOldProfessionalMcExpires" methodname="AddNewProfessionalMcAfterOldProfessionalMcExpires" classname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests" runstate="Runnable" seed="570137342" result="Passed" start-time="2018-03-16 05:11:03Z" end-time="2018-03-16 05:11:45Z" duration="41.498500" asserts="12">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1061" name="CancelProfessionalMc" fullname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests.CancelProfessionalMc" methodname="CancelProfessionalMc" classname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests" runstate="Runnable" seed="630739992" result="Passed" start-time="2018-03-16 05:11:45Z" end-time="2018-03-16 05:12:18Z" duration="33.322761" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1063" name="EnableAutoRenewAfterCancelProfessionalMc" fullname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests.EnableAutoRenewAfterCancelProfessionalMc" methodname="EnableAutoRenewAfterCancelProfessionalMc" classname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests" runstate="Runnable" seed="1231102370" result="Passed" start-time="2018-03-16 05:12:18Z" end-time="2018-03-16 05:12:53Z" duration="35.175065" asserts="10">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1066" name="FailedSubscribeWithInvalidCheckingAccount" fullname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests.FailedSubscribeWithInvalidCheckingAccount" methodname="FailedSubscribeWithInvalidCheckingAccount" classname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests" runstate="Runnable" seed="500954401" result="Passed" start-time="2018-03-16 05:12:53Z" end-time="2018-03-16 05:13:48Z" duration="54.903732" asserts="4">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1065" name="FailedSubscribeWithInvalidCreditCard" fullname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests.FailedSubscribeWithInvalidCreditCard" methodname="FailedSubscribeWithInvalidCreditCard" classname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests" runstate="Runnable" seed="176264911" result="Passed" start-time="2018-03-16 05:13:48Z" end-time="2018-03-16 05:14:18Z" duration="29.995090" asserts="4">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1067" name="FailedSubscribeWithInvalidSepaddAccount" fullname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests.FailedSubscribeWithInvalidSepaddAccount" methodname="FailedSubscribeWithInvalidSepaddAccount" classname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests" runstate="Runnable" seed="1741165124" result="Passed" start-time="2018-03-16 05:14:18Z" end-time="2018-03-16 05:15:07Z" duration="48.605067" asserts="4">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1062" name="HardCancelProfessionalMc" fullname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests.HardCancelProfessionalMc" methodname="HardCancelProfessionalMc" classname="AccountsTests.SingleUser.Subscriptions.PaidSubscriptionTests" runstate="Runnable" seed="25764431" result="Passed" start-time="2018-03-16 05:15:07Z" end-time="2018-03-16 05:15:43Z" duration="36.073634" asserts="7">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1-1043" name="PromotionalCodesTests" fullname="AccountsTests.SingleUser.Subscriptions.PromotionalCodesTests" classname="AccountsTests.SingleUser.Subscriptions.PromotionalCodesTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-03-16 05:15:43Z" end-time="2018-03-16 05:17:23Z" duration="100.562944" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="19">
+            <properties>
+              <property name="Category" value="Subscription" />
+            </properties>
+            <test-case id="1-1045" name="PurchaseWithInvalidCoupon" fullname="AccountsTests.SingleUser.Subscriptions.PromotionalCodesTests.PurchaseWithInvalidCoupon" methodname="PurchaseWithInvalidCoupon" classname="AccountsTests.SingleUser.Subscriptions.PromotionalCodesTests" runstate="Runnable" seed="1952999761" result="Passed" start-time="2018-03-16 05:15:43Z" end-time="2018-03-16 05:16:14Z" duration="30.950970" asserts="7">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1044" name="PurchaseWithValidCoupon" fullname="AccountsTests.SingleUser.Subscriptions.PromotionalCodesTests.PurchaseWithValidCoupon" methodname="PurchaseWithValidCoupon" classname="AccountsTests.SingleUser.Subscriptions.PromotionalCodesTests" runstate="Runnable" seed="1097082936" result="Passed" start-time="2018-03-16 05:16:14Z" end-time="2018-03-16 05:16:44Z" duration="30.548962" asserts="5">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1046" name="UseSameCouponMultipleTimes" fullname="AccountsTests.SingleUser.Subscriptions.PromotionalCodesTests.UseSameCouponMultipleTimes" methodname="UseSameCouponMultipleTimes" classname="AccountsTests.SingleUser.Subscriptions.PromotionalCodesTests" runstate="Runnable" seed="1709948210" result="Passed" start-time="2018-03-16 05:16:44Z" end-time="2018-03-16 05:17:23Z" duration="39.062722" asserts="7">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1-1047" name="ProductAvailabilityTests" fullname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests" classname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests" runstate="Runnable" testcasecount="11" result="Failed" site="Child" start-time="2018-03-16 05:13:20Z" end-time="2018-03-16 05:18:29Z" duration="308.567679" total="11" passed="10" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="60">
+            <properties>
+              <property name="Category" value="Subscription" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1058" name="AvailableOnAddNewAferFreeTrialMcExpires" fullname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests.AvailableOnAddNewAferFreeTrialMcExpires" methodname="AvailableOnAddNewAferFreeTrialMcExpires" classname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests" runstate="Runnable" seed="216673264" result="Passed" start-time="2018-03-16 05:13:20Z" end-time="2018-03-16 05:13:46Z" duration="26.147082" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1054" name="AvailableOnAddNewAfterAcademicMcExpires" fullname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests.AvailableOnAddNewAfterAcademicMcExpires" methodname="AvailableOnAddNewAfterAcademicMcExpires" classname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests" runstate="Runnable" seed="1022881613" result="Passed" start-time="2018-03-16 05:13:46Z" end-time="2018-03-16 05:14:10Z" duration="24.183109" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1057" name="AvailableOnAddNewAfterProfessionalMcAnnuallyExpires" fullname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests.AvailableOnAddNewAfterProfessionalMcAnnuallyExpires" methodname="AvailableOnAddNewAfterProfessionalMcAnnuallyExpires" classname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests" runstate="Runnable" seed="1469454270" result="Passed" start-time="2018-03-16 05:14:10Z" end-time="2018-03-16 05:14:46Z" duration="35.259028" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1055" name="AvailableOnAddNewAfterProfessionalMcMonthlyExpires" fullname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests.AvailableOnAddNewAfterProfessionalMcMonthlyExpires" methodname="AvailableOnAddNewAfterProfessionalMcMonthlyExpires" classname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests" runstate="Runnable" seed="1128232783" result="Passed" start-time="2018-03-16 05:14:46Z" end-time="2018-03-16 05:15:29Z" duration="43.673469" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1056" name="AvailableOnAddNewAfterProfessionalMcQuarterlyExpires" fullname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests.AvailableOnAddNewAfterProfessionalMcQuarterlyExpires" methodname="AvailableOnAddNewAfterProfessionalMcQuarterlyExpires" classname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests" runstate="Runnable" seed="564090591" result="Failed" label="Error" start-time="2018-03-16 05:15:29Z" end-time="2018-03-16 05:15:49Z" duration="20.148374" asserts="0">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+              <failure>
+                <message>
+                  <![CDATA[OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document
+  (Session info: chrome=63.0.3239.108)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.3.9600 x86)]]>
+                </message>
+                <stack-trace>
+                  <![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at AccountsTestFramework.TestLibrary.App.Workflows.Subscription.SubscribeToProfessionalMc(SubscriptionData professionalMc) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Workflows\Subscription.cs:line 63
+   at AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests.SubscribeToNewProfessionalMcQuarterly() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\SingleUser\Subscriptions\ProductAvailabilityTests.cs:line 70
+   at AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests.AvailableOnAddNewAfterProfessionalMcQuarterlyExpires() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\SingleUser\Subscriptions\ProductAvailabilityTests.cs:line 195]]>
+                </stack-trace>
+              </failure>
+              <output>
+                <![CDATA[ScreenShot: \\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests.AvailableOnAddNewAfterProfessionalMcQuarterlyExpires_chrome_mc-qa-win81-32.ad.machiningcloud.com_2018-03-15--22-15-49-4813.png
+]]>
+              </output>
+              <attachments>
+                <attachment>
+                  <filePath>\\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests.AvailableOnAddNewAfterProfessionalMcQuarterlyExpires_chrome_mc-qa-win81-32.ad.machiningcloud.com_2018-03-15--22-15-49-4813.png</filePath>
+                  <description><![CDATA[ScreenShot: ]]></description>
+                </attachment>
+              </attachments>
+            </test-case>
+            <test-case id="1-1050" name="AvailableOnChangeFromAcademicMc" fullname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests.AvailableOnChangeFromAcademicMc" methodname="AvailableOnChangeFromAcademicMc" classname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests" runstate="Runnable" seed="700949639" result="Passed" start-time="2018-03-16 05:15:49Z" end-time="2018-03-16 05:16:11Z" duration="21.876980" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1049" name="AvailableOnChangeFromFreeTrialMc" fullname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests.AvailableOnChangeFromFreeTrialMc" methodname="AvailableOnChangeFromFreeTrialMc" classname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests" runstate="Runnable" seed="378132723" result="Passed" start-time="2018-03-16 05:16:11Z" end-time="2018-03-16 05:16:31Z" duration="19.315702" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1053" name="AvailableOnChangeFromProfessionalMcAnnually" fullname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests.AvailableOnChangeFromProfessionalMcAnnually" methodname="AvailableOnChangeFromProfessionalMcAnnually" classname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests" runstate="Runnable" seed="968516685" result="Passed" start-time="2018-03-16 05:16:31Z" end-time="2018-03-16 05:17:04Z" duration="33.237006" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1051" name="AvailableOnChangeFromProfessionalMcMonthly" fullname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests.AvailableOnChangeFromProfessionalMcMonthly" methodname="AvailableOnChangeFromProfessionalMcMonthly" classname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests" runstate="Runnable" seed="2105011120" result="Passed" start-time="2018-03-16 05:17:04Z" end-time="2018-03-16 05:17:36Z" duration="32.372612" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1052" name="AvailableOnChangeFromProfessionalMcQuarterly" fullname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests.AvailableOnChangeFromProfessionalMcQuarterly" methodname="AvailableOnChangeFromProfessionalMcQuarterly" classname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests" runstate="Runnable" seed="975889477" result="Passed" start-time="2018-03-16 05:17:36Z" end-time="2018-03-16 05:18:09Z" duration="32.875912" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1048" name="AvailableToNewUser" fullname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests.AvailableToNewUser" methodname="AvailableToNewUser" classname="AccountsTests.SingleUser.Subscriptions.ProductAvailabilityTests" runstate="Runnable" seed="1130972345" result="Passed" start-time="2018-03-16 05:18:09Z" end-time="2018-03-16 05:18:29Z" duration="19.477806" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1-1068" name="TrialSubscriptionTests" fullname="AccountsTests.SingleUser.Subscriptions.TrialSubscriptionTests" classname="AccountsTests.SingleUser.Subscriptions.TrialSubscriptionTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2018-03-16 05:17:23Z" end-time="2018-03-16 05:19:35Z" duration="132.128661" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="31">
+            <properties>
+              <property name="Category" value="Subscription" />
+            </properties>
+            <test-case id="1-1069" name="ActivateNewFreeTrialMc" fullname="AccountsTests.SingleUser.Subscriptions.TrialSubscriptionTests.ActivateNewFreeTrialMc" methodname="ActivateNewFreeTrialMc" classname="AccountsTests.SingleUser.Subscriptions.TrialSubscriptionTests" runstate="Runnable" seed="743809429" result="Passed" start-time="2018-03-16 05:17:23Z" end-time="2018-03-16 05:17:42Z" duration="18.758632" asserts="4">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1072" name="AddProfessionalMcAfterFreeTrialMcIsCancelled" fullname="AccountsTests.SingleUser.Subscriptions.TrialSubscriptionTests.AddProfessionalMcAfterFreeTrialMcIsCancelled" methodname="AddProfessionalMcAfterFreeTrialMcIsCancelled" classname="AccountsTests.SingleUser.Subscriptions.TrialSubscriptionTests" runstate="Runnable" seed="1316872868" result="Passed" start-time="2018-03-16 05:17:42Z" end-time="2018-03-16 05:18:18Z" duration="35.674927" asserts="14">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1070" name="CancelFreeTrialMc" fullname="AccountsTests.SingleUser.Subscriptions.TrialSubscriptionTests.CancelFreeTrialMc" methodname="CancelFreeTrialMc" classname="AccountsTests.SingleUser.Subscriptions.TrialSubscriptionTests" runstate="Runnable" seed="1233556527" result="Passed" start-time="2018-03-16 05:18:18Z" end-time="2018-03-16 05:18:38Z" duration="20.881734" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1071" name="ChangeFromFreeTrialMcToProfessionalMc" fullname="AccountsTests.SingleUser.Subscriptions.TrialSubscriptionTests.ChangeFromFreeTrialMcToProfessionalMc" methodname="ChangeFromFreeTrialMcToProfessionalMc" classname="AccountsTests.SingleUser.Subscriptions.TrialSubscriptionTests" runstate="Runnable" seed="541463784" result="Passed" start-time="2018-03-16 05:18:38Z" end-time="2018-03-16 05:19:35Z" duration="56.813005" asserts="7">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="1-1141" name="PaymentSelection" fullname="AccountsTests.SingleUser.PaymentSelection" runstate="Runnable" testcasecount="19" result="Failed" site="Child" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:21:55Z" duration="943.262077" total="19" passed="16" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="109">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1-1073" name="PaymentSelectionTests" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" testcasecount="19" result="Failed" site="Child" start-time="2018-03-16 05:08:34Z" end-time="2018-03-16 05:21:55Z" duration="801.189077" total="19" passed="16" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="109">
+            <properties>
+              <property name="Category" value="PaymentSelection" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1075" name="AddInvalidItalyVat" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.AddInvalidItalyVat" methodname="AddInvalidItalyVat" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="1007290320" result="Passed" start-time="2018-03-16 05:08:34Z" end-time="2018-03-16 05:09:04Z" duration="29.952445" asserts="1">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1076" name="AddNewCheckingAccount" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.AddNewCheckingAccount" methodname="AddNewCheckingAccount" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="324828008" result="Passed" start-time="2018-03-16 05:09:04Z" end-time="2018-03-16 05:09:35Z" duration="30.816349" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1077" name="AddNewCreditCard" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.AddNewCreditCard" methodname="AddNewCreditCard" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="96106584" result="Passed" start-time="2018-03-16 05:09:35Z" end-time="2018-03-16 05:10:04Z" duration="28.970620" asserts="3">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1078" name="AddNewSepaddAccount" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.AddNewSepaddAccount" methodname="AddNewSepaddAccount" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="628148483" result="Failed" label="Error" start-time="2018-03-16 05:10:04Z" end-time="2018-03-16 05:10:24Z" duration="20.531455" asserts="0">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+              <failure>
+                <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                <stack-trace>
+                  <![CDATA[   at AccountsTestFramework.TestLibrary.App.Pages.CartProductPage.SubscribeTo(SubscriptionData product) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Pages\CartProductPage.cs:line 122
+   at AccountsTestFramework.TestLibrary.App.Workflows.PaymentSelection.OpenPaymentSelectionPage() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Workflows\PaymentSelection.cs:line 15
+   at AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.AddNewItalySepaddAccount() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\SingleUser\PaymentSelection\PaymentSelectionTests.cs:line 47
+   at AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.AddNewSepaddAccount() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\SingleUser\PaymentSelection\PaymentSelectionTests.cs:line 123]]>
+                </stack-trace>
+              </failure>
+              <output>
+                <![CDATA[ScreenShot: \\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.AddNewSepaddAccount_chrome_mc-qa-win7-32.ad.machiningcloud.com_2018-03-15--22-10-24-1446.png
+]]>
+              </output>
+              <attachments>
+                <attachment>
+                  <filePath>\\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.AddNewSepaddAccount_chrome_mc-qa-win7-32.ad.machiningcloud.com_2018-03-15--22-10-24-1446.png</filePath>
+                  <description><![CDATA[ScreenShot: ]]></description>
+                </attachment>
+              </attachments>
+            </test-case>
+            <test-case id="1-1074" name="AddValidSpainVat" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.AddValidSpainVat" methodname="AddValidSpainVat" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="1206131468" result="Passed" start-time="2018-03-16 05:10:24Z" end-time="2018-03-16 05:10:51Z" duration="26.558738" asserts="1">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1079" name="ChangeDefaultFromCheckingToCreditCard" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.ChangeDefaultFromCheckingToCreditCard" methodname="ChangeDefaultFromCheckingToCreditCard" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="1335314533" result="Failed" label="Error" start-time="2018-03-16 05:10:51Z" end-time="2018-03-16 05:11:28Z" duration="37.761452" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+              <failure>
+                <message>
+                  <![CDATA[System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.
+  ----> System.ArgumentException : Destination array was not long enough. Check destIndex and length, and the array's lower bounds.]]>
+                </message>
+                <stack-trace>
+                  <![CDATA[   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at OpenQA.Selenium.Support.PageObjects.WebDriverObjectProxy.InvokeMethod(IMethodCallMessage msg, Object representedValue)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at System.Collections.Generic.ICollection`1.CopyTo(T[] array, Int32 arrayIndex)
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at AccountsTestFramework.TestLibrary.App.Pages.CartPaymentPage.FindPaymentMethodElement(IPaymentData paymentData) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Pages\CartPaymentPage.cs:line 103
+   at AccountsTestFramework.TestLibrary.App.Pages.CartPaymentPage.IsPaymentMethodActive(IPaymentData paymentData) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Pages\CartPaymentPage.cs:line 203
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.ChangeDefaultFromCheckingToCreditCard() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\SingleUser\PaymentSelection\PaymentSelectionTests.cs:line 154
+--ArgumentException
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at System.Collections.Generic.List`1.CopyTo(T[] array, Int32 arrayIndex)]]>
+                </stack-trace>
+              </failure>
+              <output>
+                <![CDATA[ScreenShot: \\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.ChangeDefaultFromCheckingToCreditCard_chrome_mc-qa-win7-32.ad.machiningcloud.com_2018-03-15--22-11-28-3760.png
+]]>
+              </output>
+              <attachments>
+                <attachment>
+                  <filePath>\\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.ChangeDefaultFromCheckingToCreditCard_chrome_mc-qa-win7-32.ad.machiningcloud.com_2018-03-15--22-11-28-3760.png</filePath>
+                  <description><![CDATA[ScreenShot: ]]></description>
+                </attachment>
+              </attachments>
+            </test-case>
+            <test-case id="1-1080" name="ChangeDefaultFromCreditCardToChecking" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.ChangeDefaultFromCreditCardToChecking" methodname="ChangeDefaultFromCreditCardToChecking" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="1998915095" result="Passed" start-time="2018-03-16 05:11:28Z" end-time="2018-03-16 05:12:06Z" duration="37.869844" asserts="11">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1091" name="ChangeDefaultFromCreditCardToSepaddAccount" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.ChangeDefaultFromCreditCardToSepaddAccount" methodname="ChangeDefaultFromCreditCardToSepaddAccount" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="1774263037" result="Passed" start-time="2018-03-16 05:12:06Z" end-time="2018-03-16 05:12:54Z" duration="48.008632" asserts="8">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1092" name="ChangeDefaultFromSepaddAccountToCreditCard" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.ChangeDefaultFromSepaddAccountToCreditCard" methodname="ChangeDefaultFromSepaddAccountToCreditCard" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="162885731" result="Passed" start-time="2018-03-16 05:12:54Z" end-time="2018-03-16 05:13:45Z" duration="50.261589" asserts="8">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1083" name="EditCreditCard" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.EditCreditCard" methodname="EditCreditCard" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="1952583788" result="Passed" start-time="2018-03-16 05:13:45Z" end-time="2018-03-16 05:14:26Z" duration="41.240216" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1085" name="PayByDefaultCheckingAccount" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.PayByDefaultCheckingAccount" methodname="PayByDefaultCheckingAccount" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="1237199118" result="Passed" start-time="2018-03-16 05:14:26Z" end-time="2018-03-16 05:14:59Z" duration="33.406593" asserts="10">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1084" name="PayByDefaultCreditCard" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.PayByDefaultCreditCard" methodname="PayByDefaultCreditCard" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="1547849782" result="Passed" start-time="2018-03-16 05:14:59Z" end-time="2018-03-16 05:15:35Z" duration="36.291427" asserts="7">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1086" name="PayByDefaultSepaddAccount" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.PayByDefaultSepaddAccount" methodname="PayByDefaultSepaddAccount" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="526933062" result="Passed" start-time="2018-03-16 05:15:35Z" end-time="2018-03-16 05:16:36Z" duration="60.037678" asserts="3">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1088" name="RemoveCheckingAccount" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.RemoveCheckingAccount" methodname="RemoveCheckingAccount" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="2115430164" result="Passed" start-time="2018-03-16 05:16:36Z" end-time="2018-03-16 05:17:06Z" duration="30.499443" asserts="10">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1087" name="RemoveCreditCard" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.RemoveCreditCard" methodname="RemoveCreditCard" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="2022739428" result="Passed" start-time="2018-03-16 05:17:06Z" end-time="2018-03-16 05:17:37Z" duration="30.768469" asserts="7">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1082" name="RemoveDefaultCheckingAccount" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.RemoveDefaultCheckingAccount" methodname="RemoveDefaultCheckingAccount" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="278110642" result="Passed" start-time="2018-03-16 05:17:37Z" end-time="2018-03-16 05:18:54Z" duration="77.251564" asserts="5">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1081" name="RemoveDefaultCreditCard" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.RemoveDefaultCreditCard" methodname="RemoveDefaultCreditCard" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="1487676519" result="Passed" start-time="2018-03-16 05:18:54Z" end-time="2018-03-16 05:19:56Z" duration="61.989050" asserts="7">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1090" name="RemoveDefaultSepaddAccount" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.RemoveDefaultSepaddAccount" methodname="RemoveDefaultSepaddAccount" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="1135237042" result="Failed" label="Error" start-time="2018-03-16 05:19:56Z" end-time="2018-03-16 05:21:15Z" duration="79.045736" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+              <failure>
+                <message><![CDATA[System.Exception : Error: Test User action failed. Response:<APIReturnModelOfboolean xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/MachiningCloudAccounts.Models"><ApiStatus>false</ApiStatus><Data>false</Data><MessageList><ToastMessage><CloseOnDismissOnly>false</CloseOnDismissOnly><Message>There was an error Cancelling the Test User Subscription(s)</Message><Type>error</Type></ToastMessage></MessageList></APIReturnModelOfboolean>]]></message>
+                <stack-trace>
+                  <![CDATA[   at AccountsTestFramework.TestLibrary.App.Workflows.Navigate.PerformTestUserAction(String partialUrl) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Workflows\Navigate.cs:line 112
+   at AccountsTestFramework.TestLibrary.App.Workflows.Account.HardCancelSubscription() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Workflows\Account.cs:line 94
+   at AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.RemoveDefaultSepaddAccount() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\SingleUser\PaymentSelection\PaymentSelectionTests.cs:line 440]]>
+                </stack-trace>
+              </failure>
+              <output>
+                <![CDATA[True
+True
+False
+False
+ScreenShot: \\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.RemoveDefaultSepaddAccount_chrome_mc-qa-win7-32.ad.machiningcloud.com_2018-03-15--22-21-15-0673.png
+]]>
+              </output>
+              <attachments>
+                <attachment>
+                  <filePath>\\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.RemoveDefaultSepaddAccount_chrome_mc-qa-win7-32.ad.machiningcloud.com_2018-03-15--22-21-15-0673.png</filePath>
+                  <description><![CDATA[ScreenShot: ]]></description>
+                </attachment>
+              </attachments>
+            </test-case>
+            <test-case id="1-1089" name="RemoveSepaddAccount" fullname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests.RemoveSepaddAccount" methodname="RemoveSepaddAccount" classname="AccountsTests.SingleUser.PaymentSelection.PaymentSelectionTests" runstate="Runnable" seed="282380109" result="Passed" start-time="2018-03-16 05:21:15Z" end-time="2018-03-16 05:21:55Z" duration="39.926154" asserts="4">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="1-1143" name="Billing" fullname="AccountsTests.SingleUser.Billing" runstate="Runnable" testcasecount="28" result="Failed" site="Child" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:23:06Z" duration="1013.990339" total="28" passed="23" failed="5" warnings="0" inconclusive="0" skipped="0" asserts="141">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1-1119" name="SubscriptionCountryTests" fullname="AccountsTests.SingleUser.Billing.SubscriptionCountryTests" classname="AccountsTests.SingleUser.Billing.SubscriptionCountryTests" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:10:27Z" duration="254.998681" total="6" passed="5" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="24">
+            <properties>
+              <property name="Category" value="Billing" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1121" name="ItalyAlreadySelectedAfterLoggingOut" fullname="AccountsTests.SingleUser.Billing.SubscriptionCountryTests.ItalyAlreadySelectedAfterLoggingOut" methodname="ItalyAlreadySelectedAfterLoggingOut" classname="AccountsTests.SingleUser.Billing.SubscriptionCountryTests" runstate="Runnable" seed="493959438" result="Passed" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:07:24Z" duration="72.394334" asserts="3">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1123" name="SwitchCountryAfterAddingCheckingAccount" fullname="AccountsTests.SingleUser.Billing.SubscriptionCountryTests.SwitchCountryAfterAddingCheckingAccount" methodname="SwitchCountryAfterAddingCheckingAccount" classname="AccountsTests.SingleUser.Billing.SubscriptionCountryTests" runstate="Runnable" seed="2046195886" result="Passed" start-time="2018-03-16 05:07:24Z" end-time="2018-03-16 05:07:59Z" duration="34.862884" asserts="4">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1124" name="SwitchCountryAfterAddingSepaddAccount" fullname="AccountsTests.SingleUser.Billing.SubscriptionCountryTests.SwitchCountryAfterAddingSepaddAccount" methodname="SwitchCountryAfterAddingSepaddAccount" classname="AccountsTests.SingleUser.Billing.SubscriptionCountryTests" runstate="Runnable" seed="1636388931" result="Failed" label="Error" start-time="2018-03-16 05:07:59Z" end-time="2018-03-16 05:08:51Z" duration="51.772087" asserts="2">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+              <failure>
+                <message>
+                  <![CDATA[OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document
+  (Session info: chrome=63.0.3239.108)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86_64)]]>
+                </message>
+                <stack-trace>
+                  <![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.GetAttribute(String attributeName)
+   at AccountsTestFramework.TestLibrary.App.Pages.BillingPage.<>c.<FindPaymentMethodElement>b__59_0(IWebElement prod) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Pages\BillingPage.cs:line 86
+   at System.Collections.Generic.List`1.Find(Predicate`1 match)
+   at AccountsTestFramework.TestLibrary.App.Pages.BillingPage.IsPaymentMethodActive(IPaymentData paymentData) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Pages\BillingPage.cs:line 176
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at AccountsTests.SingleUser.Billing.SubscriptionCountryTests.SwitchCountryAfterAddingSepaddAccount() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\SingleUser\Billing\SubscriptionCountryTests.cs:line 153]]>
+                </stack-trace>
+              </failure>
+              <output>
+                <![CDATA[ScreenShot: \\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.Billing.SubscriptionCountryTests.SwitchCountryAfterAddingSepaddAccount_chrome_mc-qa-win7-64.ad.machiningcloud.com_2018-03-15--22-08-50-4676.png
+]]>
+              </output>
+              <attachments>
+                <attachment>
+                  <filePath>\\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.Billing.SubscriptionCountryTests.SwitchCountryAfterAddingSepaddAccount_chrome_mc-qa-win7-64.ad.machiningcloud.com_2018-03-15--22-08-50-4676.png</filePath>
+                  <description><![CDATA[ScreenShot: ]]></description>
+                </attachment>
+              </attachments>
+            </test-case>
+            <test-case id="1-1125" name="SwitchCountryAfterPurchasingSubscription" fullname="AccountsTests.SingleUser.Billing.SubscriptionCountryTests.SwitchCountryAfterPurchasingSubscription" methodname="SwitchCountryAfterPurchasingSubscription" classname="AccountsTests.SingleUser.Billing.SubscriptionCountryTests" runstate="Runnable" seed="2116206581" result="Passed" start-time="2018-03-16 05:08:51Z" end-time="2018-03-16 05:09:40Z" duration="49.445537" asserts="1">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1120" name="UsAlreadySelectedAfterLoggingOut" fullname="AccountsTests.SingleUser.Billing.SubscriptionCountryTests.UsAlreadySelectedAfterLoggingOut" methodname="UsAlreadySelectedAfterLoggingOut" classname="AccountsTests.SingleUser.Billing.SubscriptionCountryTests" runstate="Runnable" seed="1970098478" result="Passed" start-time="2018-03-16 05:09:40Z" end-time="2018-03-16 05:10:05Z" duration="24.743407" asserts="2">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1122" name="VerifyCountriesMatchWithPaymentMethod" fullname="AccountsTests.SingleUser.Billing.SubscriptionCountryTests.VerifyCountriesMatchWithPaymentMethod" methodname="VerifyCountriesMatchWithPaymentMethod" classname="AccountsTests.SingleUser.Billing.SubscriptionCountryTests" runstate="Runnable" seed="888709202" result="Passed" start-time="2018-03-16 05:10:05Z" end-time="2018-03-16 05:10:27Z" duration="21.765663" asserts="12">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1-1096" name="BillingTests" fullname="AccountsTests.SingleUser.Billing.BillingTests" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" testcasecount="22" result="Failed" site="Child" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:23:06Z" duration="1013.990315" total="22" passed="18" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="117">
+            <properties>
+              <property name="Category" value="Billing" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1098" name="AddInvalidItalyVat" fullname="AccountsTests.SingleUser.Billing.BillingTests.AddInvalidItalyVat" methodname="AddInvalidItalyVat" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="1579813679" result="Passed" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:07:28Z" duration="76.204942" asserts="1">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1102" name="AddNewCheckingAccount" fullname="AccountsTests.SingleUser.Billing.BillingTests.AddNewCheckingAccount" methodname="AddNewCheckingAccount" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="559880673" result="Passed" start-time="2018-03-16 05:07:28Z" end-time="2018-03-16 05:07:57Z" duration="29.473227" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1099" name="AddNewCreditCard" fullname="AccountsTests.SingleUser.Billing.BillingTests.AddNewCreditCard" methodname="AddNewCreditCard" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="1997146391" result="Passed" start-time="2018-03-16 05:07:57Z" end-time="2018-03-16 05:08:26Z" duration="28.434844" asserts="3">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1100" name="AddNewCreditCardFromItalianAccount" fullname="AccountsTests.SingleUser.Billing.BillingTests.AddNewCreditCardFromItalianAccount" methodname="AddNewCreditCardFromItalianAccount" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="1129746173" result="Passed" start-time="2018-03-16 05:08:26Z" end-time="2018-03-16 05:09:15Z" duration="48.687993" asserts="3">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1111" name="AddNewSepaddAccount" fullname="AccountsTests.SingleUser.Billing.BillingTests.AddNewSepaddAccount" methodname="AddNewSepaddAccount" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="573530952" result="Passed" start-time="2018-03-16 05:09:15Z" end-time="2018-03-16 05:09:51Z" duration="36.439835" asserts="3">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1097" name="AddValidSpainVat" fullname="AccountsTests.SingleUser.Billing.BillingTests.AddValidSpainVat" methodname="AddValidSpainVat" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="1181149020" result="Passed" start-time="2018-03-16 05:09:51Z" end-time="2018-03-16 05:10:16Z" duration="25.396631" asserts="1">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1117" name="CannotRemoveNonDefaultPaymentMethodAfterPurchase" fullname="AccountsTests.SingleUser.Billing.BillingTests.CannotRemoveNonDefaultPaymentMethodAfterPurchase" methodname="CannotRemoveNonDefaultPaymentMethodAfterPurchase" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="1828027463" result="Passed" start-time="2018-03-16 05:10:16Z" end-time="2018-03-16 05:11:18Z" duration="61.115543" asserts="9">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1108" name="ChangeDefaultFromCheckingAccountToCreditCard" fullname="AccountsTests.SingleUser.Billing.BillingTests.ChangeDefaultFromCheckingAccountToCreditCard" methodname="ChangeDefaultFromCheckingAccountToCreditCard" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="1319265773" result="Passed" start-time="2018-03-16 05:11:18Z" end-time="2018-03-16 05:11:56Z" duration="38.429438" asserts="11">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1107" name="ChangeDefaultFromCreditCardToCheckingAccount" fullname="AccountsTests.SingleUser.Billing.BillingTests.ChangeDefaultFromCreditCardToCheckingAccount" methodname="ChangeDefaultFromCreditCardToCheckingAccount" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="1886306788" result="Passed" start-time="2018-03-16 05:11:56Z" end-time="2018-03-16 05:12:34Z" duration="38.040389" asserts="11">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1115" name="ChangeDefaultFromCreditCardToSepaddAccount" fullname="AccountsTests.SingleUser.Billing.BillingTests.ChangeDefaultFromCreditCardToSepaddAccount" methodname="ChangeDefaultFromCreditCardToSepaddAccount" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="1704183140" result="Passed" start-time="2018-03-16 05:12:34Z" end-time="2018-03-16 05:13:22Z" duration="47.794962" asserts="8">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1116" name="ChangeDefaultFromSepaddAccountToCreditCard" fullname="AccountsTests.SingleUser.Billing.BillingTests.ChangeDefaultFromSepaddAccountToCreditCard" methodname="ChangeDefaultFromSepaddAccountToCreditCard" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="709571540" result="Passed" start-time="2018-03-16 05:13:22Z" end-time="2018-03-16 05:14:11Z" duration="49.270784" asserts="8">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1118" name="ChangeDefaultFromSepaddToCreditCardAfterProductExpires" fullname="AccountsTests.SingleUser.Billing.BillingTests.ChangeDefaultFromSepaddToCreditCardAfterProductExpires" methodname="ChangeDefaultFromSepaddToCreditCardAfterProductExpires" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="153547737" result="Passed" start-time="2018-03-16 05:14:11Z" end-time="2018-03-16 05:15:13Z" duration="61.896836" asserts="7">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1101" name="EditCreditCard" fullname="AccountsTests.SingleUser.Billing.BillingTests.EditCreditCard" methodname="EditCreditCard" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="218620341" result="Passed" start-time="2018-03-16 05:15:13Z" end-time="2018-03-16 05:15:52Z" duration="38.926281" asserts="3">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1106" name="PayByDefaultCheckingAccount" fullname="AccountsTests.SingleUser.Billing.BillingTests.PayByDefaultCheckingAccount" methodname="PayByDefaultCheckingAccount" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="2088081035" result="Failed" label="Error" start-time="2018-03-16 05:15:52Z" end-time="2018-03-16 05:17:23Z" duration="91.376937" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds]]></message>
+                <stack-trace>
+                  <![CDATA[   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at AccountsTests.SingleUser.Billing.BillingTests.PayByDefaultCheckingAccount() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\SingleUser\Billing\BillingTests.cs:line 203]]>
+                </stack-trace>
+              </failure>
+              <output>
+                <![CDATA[ScreenShot: \\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.Billing.BillingTests.PayByDefaultCheckingAccount_chrome_mc-qa-win7-64-2.ad.machiningcloud.com_2018-03-15--22-17-23-3074.png
+]]>
+              </output>
+              <attachments>
+                <attachment>
+                  <filePath>\\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.Billing.BillingTests.PayByDefaultCheckingAccount_chrome_mc-qa-win7-64-2.ad.machiningcloud.com_2018-03-15--22-17-23-3074.png</filePath>
+                  <description><![CDATA[ScreenShot: ]]></description>
+                </attachment>
+              </attachments>
+            </test-case>
+            <test-case id="1-1105" name="PayByDefaultCreditCard" fullname="AccountsTests.SingleUser.Billing.BillingTests.PayByDefaultCreditCard" methodname="PayByDefaultCreditCard" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="497905680" result="Passed" start-time="2018-03-16 05:17:23Z" end-time="2018-03-16 05:17:56Z" duration="33.079733" asserts="7">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1113" name="PayByDefaultSepaddAccount" fullname="AccountsTests.SingleUser.Billing.BillingTests.PayByDefaultSepaddAccount" methodname="PayByDefaultSepaddAccount" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="1061493767" result="Failed" label="Error" start-time="2018-03-16 05:17:56Z" end-time="2018-03-16 05:18:51Z" duration="54.274017" asserts="1">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+              <failure>
+                <message><![CDATA[System.FormatException : The DateTime represented by the string is not supported in calendar System.Globalization.GregorianCalendar.]]></message>
+                <stack-trace>
+                  <![CDATA[   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at AccountsTestFramework.TestLibrary.App.Pages.SubscriptionPage.GetProductBillingDate(ISearchContext productCard) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Pages\SubscriptionPage.cs:line 145
+   at AccountsTestFramework.TestLibrary.App.Pages.SubscriptionPage.IsProductActive(IWebElement productCard) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Pages\SubscriptionPage.cs:line 85
+   at System.Collections.Generic.List`1.FindAll(Predicate`1 match)
+   at AccountsTestFramework.TestLibrary.App.Pages.SubscriptionPage.get_ActiveProductCount() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Pages\SubscriptionPage.cs:line 46
+   at AccountsTests.SingleUser.Billing.BillingTests.PayByDefaultSepaddAccount() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\SingleUser\Billing\BillingTests.cs:line 394]]>
+                </stack-trace>
+              </failure>
+              <output>
+                <![CDATA[ScreenShot: \\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.Billing.BillingTests.PayByDefaultSepaddAccount_chrome_mc-qa-win7-64-2.ad.machiningcloud.com_2018-03-15--22-18-49-3310.png
+]]>
+              </output>
+              <attachments>
+                <attachment>
+                  <filePath>\\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.Billing.BillingTests.PayByDefaultSepaddAccount_chrome_mc-qa-win7-64-2.ad.machiningcloud.com_2018-03-15--22-18-49-3310.png</filePath>
+                  <description><![CDATA[ScreenShot: ]]></description>
+                </attachment>
+              </attachments>
+            </test-case>
+            <test-case id="1-1104" name="RemoveCheckingAccount" fullname="AccountsTests.SingleUser.Billing.BillingTests.RemoveCheckingAccount" methodname="RemoveCheckingAccount" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="35561619" result="Passed" start-time="2018-03-16 05:18:51Z" end-time="2018-03-16 05:19:35Z" duration="44.824749" asserts="4">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1103" name="RemoveCreditCard" fullname="AccountsTests.SingleUser.Billing.BillingTests.RemoveCreditCard" methodname="RemoveCreditCard" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="1294214710" result="Passed" start-time="2018-03-16 05:19:35Z" end-time="2018-03-16 05:20:04Z" duration="28.954623" asserts="4">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1110" name="RemoveDefaultCheckingAccount" fullname="AccountsTests.SingleUser.Billing.BillingTests.RemoveDefaultCheckingAccount" methodname="RemoveDefaultCheckingAccount" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="1382343585" result="Failed" label="Error" start-time="2018-03-16 05:20:04Z" end-time="2018-03-16 05:21:10Z" duration="65.323968" asserts="9">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+              <failure>
+                <message><![CDATA[System.Exception : Error: Test User action failed. Response:<APIReturnModelOfboolean xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/MachiningCloudAccounts.Models"><ApiStatus>false</ApiStatus><Data>false</Data><MessageList><ToastMessage><CloseOnDismissOnly>false</CloseOnDismissOnly><Message>There was an error Cancelling the Test User Subscription(s)</Message><Type>error</Type></ToastMessage></MessageList></APIReturnModelOfboolean>]]></message>
+                <stack-trace>
+                  <![CDATA[   at AccountsTestFramework.TestLibrary.App.Workflows.Navigate.PerformTestUserAction(String partialUrl) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Workflows\Navigate.cs:line 112
+   at AccountsTestFramework.TestLibrary.App.Workflows.Account.HardCancelSubscription() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Workflows\Account.cs:line 94
+   at AccountsTests.SingleUser.Billing.BillingTests.RemoveDefaultCheckingAccount() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\SingleUser\Billing\BillingTests.cs:line 347]]>
+                </stack-trace>
+              </failure>
+              <output>
+                <![CDATA[ScreenShot: \\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.Billing.BillingTests.RemoveDefaultCheckingAccount_chrome_mc-qa-win7-64-2.ad.machiningcloud.com_2018-03-15--22-21-09-7895.png
+]]>
+              </output>
+              <attachments>
+                <attachment>
+                  <filePath>\\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.Billing.BillingTests.RemoveDefaultCheckingAccount_chrome_mc-qa-win7-64-2.ad.machiningcloud.com_2018-03-15--22-21-09-7895.png</filePath>
+                  <description><![CDATA[ScreenShot: ]]></description>
+                </attachment>
+              </attachments>
+            </test-case>
+            <test-case id="1-1109" name="RemoveDefaultCreditCard" fullname="AccountsTests.SingleUser.Billing.BillingTests.RemoveDefaultCreditCard" methodname="RemoveDefaultCreditCard" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="240205244" result="Failed" label="Error" start-time="2018-03-16 05:21:10Z" end-time="2018-03-16 05:21:22Z" duration="11.953039" asserts="0">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+              <failure>
+                <message><![CDATA[System.Exception : Error: Test User action failed. Response:<APIReturnModelOfboolean xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/MachiningCloudAccounts.Models"><ApiStatus>false</ApiStatus><Data>false</Data><MessageList><ToastMessage><CloseOnDismissOnly>false</CloseOnDismissOnly><Message>There was an error refreshing the Test User Subscription(s)</Message><Type>error</Type></ToastMessage></MessageList></APIReturnModelOfboolean>]]></message>
+                <stack-trace>
+                  <![CDATA[   at AccountsTestFramework.TestLibrary.App.Workflows.Navigate.PerformTestUserAction(String partialUrl) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Workflows\Navigate.cs:line 112
+   at AccountsTestFramework.TestLibrary.App.Workflows.Account.ResetAccount() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Workflows\Account.cs:line 87
+   at AccountsTestFramework.TestLibrary.App.Workflows.Account.ResetAndLoginUser(Action actionLoginUser) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Workflows\Account.cs:line 72
+   at AccountsTests.SingleUser.Billing.BillingTests.ResetAndLoginAccount() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\SingleUser\Billing\BillingTests.cs:line 14
+   at AccountsTests.SingleUser.Billing.BillingTests.AddNewVisaCreditCard() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\SingleUser\Billing\BillingTests.cs:line 27
+   at AccountsTests.SingleUser.Billing.BillingTests.AddNewCreditCard() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\SingleUser\Billing\BillingTests.cs:line 81
+   at AccountsTests.SingleUser.Billing.BillingTests.RemoveDefaultCreditCard() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\SingleUser\Billing\BillingTests.cs:line 285]]>
+                </stack-trace>
+              </failure>
+              <output>
+                <![CDATA[ScreenShot: \\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.Billing.BillingTests.RemoveDefaultCreditCard_chrome_mc-qa-win7-64-2.ad.machiningcloud.com_2018-03-15--22-21-21-7368.png
+]]>
+              </output>
+              <attachments>
+                <attachment>
+                  <filePath>\\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.SingleUser.Billing.BillingTests.RemoveDefaultCreditCard_chrome_mc-qa-win7-64-2.ad.machiningcloud.com_2018-03-15--22-21-21-7368.png</filePath>
+                  <description><![CDATA[ScreenShot: ]]></description>
+                </attachment>
+              </attachments>
+            </test-case>
+            <test-case id="1-1114" name="RemoveDefaultSepaddAccount" fullname="AccountsTests.SingleUser.Billing.BillingTests.RemoveDefaultSepaddAccount" methodname="RemoveDefaultSepaddAccount" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="727101863" result="Passed" start-time="2018-03-16 05:21:22Z" end-time="2018-03-16 05:22:26Z" duration="64.511009" asserts="8">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1112" name="RemoveSepaddAccount" fullname="AccountsTests.SingleUser.Billing.BillingTests.RemoveSepaddAccount" methodname="RemoveSepaddAccount" classname="AccountsTests.SingleUser.Billing.BillingTests" runstate="Runnable" seed="1336631023" result="Passed" start-time="2018-03-16 05:22:26Z" end-time="2018-03-16 05:23:06Z" duration="39.572785" asserts="4">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestSuite" id="1-1135" name="Team" fullname="AccountsTests.Team" runstate="Runnable" testcasecount="32" result="Failed" site="Child" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 06:01:09Z" duration="3297.678636" total="32" passed="28" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="320">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1-1138" name="ManageTeam" fullname="AccountsTests.Team.ManageTeam" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:35:03Z" duration="1731.545279" total="6" passed="4" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="69">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1-1028" name="ManageTeamTests" fullname="AccountsTests.Team.ManageTeam.ManageTeamTests" classname="AccountsTests.Team.ManageTeam.ManageTeamTests" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2018-03-16 05:18:29Z" end-time="2018-03-16 05:35:03Z" duration="994.653648" total="6" passed="4" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="69">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1029" name="AdminUserCanAssignSubscription" fullname="AccountsTests.Team.ManageTeam.ManageTeamTests.AdminUserCanAssignSubscription" methodname="AdminUserCanAssignSubscription" classname="AccountsTests.Team.ManageTeam.ManageTeamTests" runstate="Runnable" seed="1589130372" result="Failed" label="Error" start-time="2018-03-16 05:18:29Z" end-time="2018-03-16 05:21:50Z" duration="200.895818" asserts="0">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds]]></message>
+                <stack-trace>
+                  <![CDATA[   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at AccountsTests.Team.ManageTeam.ManageTeamTests.AdminUserCanAssignSubscription() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\Team\ManageTeam\ManageTeamTests.cs:line 63]]>
+                </stack-trace>
+              </failure>
+              <output>
+                <![CDATA[ScreenShot: \\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.Team.ManageTeam.ManageTeamTests.AdminUserCanAssignSubscription_chrome_mc-qa-win81-32.ad.machiningcloud.com_2018-03-15--22-21-49-5659.png
+]]>
+              </output>
+              <attachments>
+                <attachment>
+                  <filePath>\\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.Team.ManageTeam.ManageTeamTests.AdminUserCanAssignSubscription_chrome_mc-qa-win81-32.ad.machiningcloud.com_2018-03-15--22-21-49-5659.png</filePath>
+                  <description><![CDATA[ScreenShot: ]]></description>
+                </attachment>
+              </attachments>
+            </test-case>
+            <test-case id="1-1030" name="AdminUserCannotRemoveSubscription" fullname="AccountsTests.Team.ManageTeam.ManageTeamTests.AdminUserCannotRemoveSubscription" methodname="AdminUserCannotRemoveSubscription" classname="AccountsTests.Team.ManageTeam.ManageTeamTests" runstate="Runnable" seed="1595953306" result="Passed" start-time="2018-03-16 05:21:50Z" end-time="2018-03-16 05:24:14Z" duration="144.626166" asserts="9">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1033" name="BillingUserAfterSubscriptionExpires" fullname="AccountsTests.Team.ManageTeam.ManageTeamTests.BillingUserAfterSubscriptionExpires" methodname="BillingUserAfterSubscriptionExpires" classname="AccountsTests.Team.ManageTeam.ManageTeamTests" runstate="Runnable" seed="1226703758" result="Passed" start-time="2018-03-16 05:24:14Z" end-time="2018-03-16 05:27:03Z" duration="168.730680" asserts="20">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1031" name="BillingUserCanAddOrCancelSubscription" fullname="AccountsTests.Team.ManageTeam.ManageTeamTests.BillingUserCanAddOrCancelSubscription" methodname="BillingUserCanAddOrCancelSubscription" classname="AccountsTests.Team.ManageTeam.ManageTeamTests" runstate="Runnable" seed="1061642652" result="Failed" label="Error" start-time="2018-03-16 05:27:03Z" end-time="2018-03-16 05:29:56Z" duration="172.737470" asserts="17">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+              <failure>
+                <message>
+                  <![CDATA[OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document
+  (Session info: chrome=63.0.3239.108)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86)]]>
+                </message>
+                <stack-trace>
+                  <![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.get_Text()
+   at AccountsTestFramework.TestLibrary.App.Pages.ManageTeamPage.<>c__DisplayClass27_0.<CancelSubscription>b__2(IWebDriver x) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Pages\ManageTeamPage.cs:line 64
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at AccountsTests.Team.ManageTeam.ManageTeamTests.BillingUserCanAddOrCancelSubscription() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\Team\ManageTeam\ManageTeamTests.cs:line 252]]>
+                </stack-trace>
+              </failure>
+              <output>
+                <![CDATA[ScreenShot: \\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.Team.ManageTeam.ManageTeamTests.BillingUserCanAddOrCancelSubscription_chrome_mc-qa-win7-32.ad.machiningcloud.com_2018-03-15--22-29-55-6644.png
+]]>
+              </output>
+              <attachments>
+                <attachment>
+                  <filePath>\\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.Team.ManageTeam.ManageTeamTests.BillingUserCanAddOrCancelSubscription_chrome_mc-qa-win7-32.ad.machiningcloud.com_2018-03-15--22-29-55-6644.png</filePath>
+                  <description><![CDATA[ScreenShot: ]]></description>
+                </attachment>
+              </attachments>
+            </test-case>
+            <test-case id="1-1032" name="BillingUserCanChangeSubscriptionTerm" fullname="AccountsTests.Team.ManageTeam.ManageTeamTests.BillingUserCanChangeSubscriptionTerm" methodname="BillingUserCanChangeSubscriptionTerm" classname="AccountsTests.Team.ManageTeam.ManageTeamTests" runstate="Runnable" seed="53320033" result="Passed" start-time="2018-03-16 05:29:56Z" end-time="2018-03-16 05:32:41Z" duration="165.182463" asserts="14">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1034" name="BillingUserCannotAssignLicense" fullname="AccountsTests.Team.ManageTeam.ManageTeamTests.BillingUserCannotAssignLicense" methodname="BillingUserCannotAssignLicense" classname="AccountsTests.Team.ManageTeam.ManageTeamTests" runstate="Runnable" seed="339745505" result="Passed" start-time="2018-03-16 05:32:41Z" end-time="2018-03-16 05:35:03Z" duration="142.480486" asserts="9">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="1-1137" name="Privileges" fullname="AccountsTests.Team.Privileges" runstate="Runnable" testcasecount="8" result="Passed" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 05:36:15Z" duration="1802.985814" total="8" passed="8" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="123">
+          <test-suite type="TestFixture" id="1-1019" name="PrivilegesTests" fullname="AccountsTests.Team.Privileges.PrivilegesTests" classname="AccountsTests.Team.Privileges.PrivilegesTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2018-03-16 05:19:35Z" end-time="2018-03-16 05:36:15Z" duration="999.439651" total="8" passed="8" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="123">
+            <test-case id="1-1020" name="AdminUserCanEditTeamName" fullname="AccountsTests.Team.Privileges.PrivilegesTests.AdminUserCanEditTeamName" methodname="AdminUserCanEditTeamName" classname="AccountsTests.Team.Privileges.PrivilegesTests" runstate="Runnable" seed="425149577" result="Passed" start-time="2018-03-16 05:19:35Z" end-time="2018-03-16 05:21:42Z" duration="126.795325" asserts="7">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1021" name="AdminUserCanOnlyChangeAdminPrivileges" fullname="AccountsTests.Team.Privileges.PrivilegesTests.AdminUserCanOnlyChangeAdminPrivileges" methodname="AdminUserCanOnlyChangeAdminPrivileges" classname="AccountsTests.Team.Privileges.PrivilegesTests" runstate="Runnable" seed="757763070" result="Passed" start-time="2018-03-16 05:21:42Z" end-time="2018-03-16 05:23:44Z" duration="121.925082" asserts="32">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1022" name="AdminUserCanRemoveUser" fullname="AccountsTests.Team.Privileges.PrivilegesTests.AdminUserCanRemoveUser" methodname="AdminUserCanRemoveUser" classname="AccountsTests.Team.Privileges.PrivilegesTests" runstate="Runnable" seed="908238341" result="Passed" start-time="2018-03-16 05:23:44Z" end-time="2018-03-16 05:25:42Z" duration="118.260726" asserts="4">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1024" name="BillingUserCanManagePaymentMethod" fullname="AccountsTests.Team.Privileges.PrivilegesTests.BillingUserCanManagePaymentMethod" methodname="BillingUserCanManagePaymentMethod" classname="AccountsTests.Team.Privileges.PrivilegesTests" runstate="Runnable" seed="1853581785" result="Passed" start-time="2018-03-16 05:25:42Z" end-time="2018-03-16 05:27:40Z" duration="117.968805" asserts="5">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1023" name="BillingUserCanOnlyChangeBillingPrivileges" fullname="AccountsTests.Team.Privileges.PrivilegesTests.BillingUserCanOnlyChangeBillingPrivileges" methodname="BillingUserCanOnlyChangeBillingPrivileges" classname="AccountsTests.Team.Privileges.PrivilegesTests" runstate="Runnable" seed="10049638" result="Passed" start-time="2018-03-16 05:27:40Z" end-time="2018-03-16 05:29:43Z" duration="123.011686" asserts="17">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1025" name="BillingUserCanPurchaseSubscription" fullname="AccountsTests.Team.Privileges.PrivilegesTests.BillingUserCanPurchaseSubscription" methodname="BillingUserCanPurchaseSubscription" classname="AccountsTests.Team.Privileges.PrivilegesTests" runstate="Runnable" seed="640904921" result="Passed" start-time="2018-03-16 05:29:43Z" end-time="2018-03-16 05:32:02Z" duration="139.005965" asserts="13">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1026" name="NormalUserCanOnlySeeSubscription" fullname="AccountsTests.Team.Privileges.PrivilegesTests.NormalUserCanOnlySeeSubscription" methodname="NormalUserCanOnlySeeSubscription" classname="AccountsTests.Team.Privileges.PrivilegesTests" runstate="Runnable" seed="1464069929" result="Passed" start-time="2018-03-16 05:32:02Z" end-time="2018-03-16 05:33:43Z" duration="101.053631" asserts="2">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1027" name="UserCanAccessToSpecificPage" fullname="AccountsTests.Team.Privileges.PrivilegesTests.UserCanAccessToSpecificPage" methodname="UserCanAccessToSpecificPage" classname="AccountsTests.Team.Privileges.PrivilegesTests" runstate="Runnable" seed="1343513227" result="Passed" start-time="2018-03-16 05:33:43Z" end-time="2018-03-16 05:36:15Z" duration="151.418001" asserts="43">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="1-1136" name="TeamManagement" fullname="AccountsTests.Team.TeamManagement" runstate="Runnable" testcasecount="18" result="Failed" site="Child" start-time="2018-03-16 05:06:12Z" end-time="2018-03-16 06:01:09Z" duration="3297.678615" total="18" passed="16" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="128">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1-1000" name="TeamManagementTests" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" testcasecount="18" result="Failed" site="Child" start-time="2018-03-16 05:21:55Z" end-time="2018-03-16 06:01:09Z" duration="2354.416421" total="18" passed="16" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="128">
+            <properties>
+              <property name="Category" value="TeamManagement" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1002" name="CreateNewTeamWith2Admins" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.CreateNewTeamWith2Admins" methodname="CreateNewTeamWith2Admins" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="1417964500" result="Passed" start-time="2018-03-16 05:21:55Z" end-time="2018-03-16 05:23:49Z" duration="114.079915" asserts="21">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1001" name="CreateNewTeamWith2BillingAdmins" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.CreateNewTeamWith2BillingAdmins" methodname="CreateNewTeamWith2BillingAdmins" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="262756162" result="Passed" start-time="2018-03-16 05:23:49Z" end-time="2018-03-16 05:25:45Z" duration="115.876937" asserts="21">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1005" name="InviteAcceptedByUserFromOtherTeam" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.InviteAcceptedByUserFromOtherTeam" methodname="InviteAcceptedByUserFromOtherTeam" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="1815444181" result="Passed" start-time="2018-03-16 05:25:45Z" end-time="2018-03-16 05:27:31Z" duration="106.269229" asserts="2">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1007" name="InviteAcceptedByUserWithNoTeamAndBillingAccount" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.InviteAcceptedByUserWithNoTeamAndBillingAccount" methodname="InviteAcceptedByUserWithNoTeamAndBillingAccount" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="2087514830" result="Passed" start-time="2018-03-16 05:27:31Z" end-time="2018-03-16 05:30:01Z" duration="149.877014" asserts="4">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1006" name="InviteAcceptedByUserWithNoTeamFromAnotherCountry" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.InviteAcceptedByUserWithNoTeamFromAnotherCountry" methodname="InviteAcceptedByUserWithNoTeamFromAnotherCountry" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="1377736617" result="Passed" start-time="2018-03-16 05:30:01Z" end-time="2018-03-16 05:31:47Z" duration="105.672059" asserts="2">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1004" name="InviteDeclinedByUser" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.InviteDeclinedByUser" methodname="InviteDeclinedByUser" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="1854593586" result="Passed" start-time="2018-03-16 05:31:47Z" end-time="2018-03-16 05:33:06Z" duration="79.672603" asserts="3">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1003" name="InviteDeclinedByUserFromOtherTeam" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.InviteDeclinedByUserFromOtherTeam" methodname="InviteDeclinedByUserFromOtherTeam" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="1425126829" result="Passed" start-time="2018-03-16 05:33:06Z" end-time="2018-03-16 05:35:07Z" duration="120.490895" asserts="3">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1012" name="InviteMemberOfTeam" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.InviteMemberOfTeam" methodname="InviteMemberOfTeam" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="1812841310" result="Failed" label="Error" start-time="2018-03-16 05:35:07Z" end-time="2018-03-16 05:37:48Z" duration="160.859583" asserts="0">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds]]></message>
+                <stack-trace>
+                  <![CDATA[   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at AccountsTests.Team.TeamManagement.TeamManagementTests.InviteMemberOfTeam() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\Team\TeamManagement\TeamManagementTests.cs:line 506]]>
+                </stack-trace>
+              </failure>
+              <output>
+                <![CDATA[ScreenShot: \\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.Team.TeamManagement.TeamManagementTests.InviteMemberOfTeam_chrome_mc-qa-win7-64.ad.machiningcloud.com_2018-03-15--22-37-47-8416.png
+]]>
+              </output>
+              <attachments>
+                <attachment>
+                  <filePath>\\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.Team.TeamManagement.TeamManagementTests.InviteMemberOfTeam_chrome_mc-qa-win7-64.ad.machiningcloud.com_2018-03-15--22-37-47-8416.png</filePath>
+                  <description><![CDATA[ScreenShot: ]]></description>
+                </attachment>
+              </attachments>
+            </test-case>
+            <test-case id="1-1009" name="MultipleInvitesFromDifferentTeamsAcceptedByUserWithNoTeam" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.MultipleInvitesFromDifferentTeamsAcceptedByUserWithNoTeam" methodname="MultipleInvitesFromDifferentTeamsAcceptedByUserWithNoTeam" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="142740941" result="Passed" start-time="2018-03-16 05:37:48Z" end-time="2018-03-16 05:40:30Z" duration="162.048340" asserts="7">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1011" name="MultipleInvitesFromDifferentTeamsDeclinedByUserWithNoTeam" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.MultipleInvitesFromDifferentTeamsDeclinedByUserWithNoTeam" methodname="MultipleInvitesFromDifferentTeamsDeclinedByUserWithNoTeam" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="1189231011" result="Passed" start-time="2018-03-16 05:40:30Z" end-time="2018-03-16 05:42:57Z" duration="147.403241" asserts="8">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1008" name="MultipleInvitesFromSameTeamAcceptedByUserWithNoTeam" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.MultipleInvitesFromSameTeamAcceptedByUserWithNoTeam" methodname="MultipleInvitesFromSameTeamAcceptedByUserWithNoTeam" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="1868388989" result="Passed" start-time="2018-03-16 05:42:57Z" end-time="2018-03-16 05:44:51Z" duration="113.526029" asserts="4">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1010" name="MultipleInvitesFromSameTeamDeclinedByUserWithNoTeam" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.MultipleInvitesFromSameTeamDeclinedByUserWithNoTeam" methodname="MultipleInvitesFromSameTeamDeclinedByUserWithNoTeam" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="789089932" result="Passed" start-time="2018-03-16 05:44:51Z" end-time="2018-03-16 05:46:38Z" duration="106.745421" asserts="4">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1015" name="RemoveAdminUserFromTeamWithMultipleAdmin" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.RemoveAdminUserFromTeamWithMultipleAdmin" methodname="RemoveAdminUserFromTeamWithMultipleAdmin" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="1856953922" result="Passed" start-time="2018-03-16 05:46:38Z" end-time="2018-03-16 05:48:38Z" duration="120.124400" asserts="5">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1014" name="RemoveAdminUserFromTeamWithOneAdmin" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.RemoveAdminUserFromTeamWithOneAdmin" methodname="RemoveAdminUserFromTeamWithOneAdmin" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="759862587" result="Passed" start-time="2018-03-16 05:48:38Z" end-time="2018-03-16 05:51:05Z" duration="147.704490" asserts="7">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1017" name="RemoveBillingUserFromTeamWithMultipleBilling" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.RemoveBillingUserFromTeamWithMultipleBilling" methodname="RemoveBillingUserFromTeamWithMultipleBilling" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="888939987" result="Passed" start-time="2018-03-16 05:51:05Z" end-time="2018-03-16 05:53:11Z" duration="125.545602" asserts="5">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1016" name="RemoveBillingUserFromTeamWithOneBilling" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.RemoveBillingUserFromTeamWithOneBilling" methodname="RemoveBillingUserFromTeamWithOneBilling" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="1362818463" result="Failed" label="Error" start-time="2018-03-16 05:53:11Z" end-time="2018-03-16 05:55:29Z" duration="138.198114" asserts="6">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+              <failure>
+                <message>
+                  <![CDATA[System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index]]>
+                </message>
+                <stack-trace>
+                  <![CDATA[   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at AccountsTestFramework.TestLibrary.App.Pages.Page.RemoveAllToastMessage() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Pages\Page.cs:line 102
+   at AccountsTestFramework.TestLibrary.App.Pages.CartProductPage.SelectSubscriptionCountry(SubscriptionCountryData countryData) in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTestFramework\TestLibrary\App\Pages\CartProductPage.cs:line 107
+   at AccountsTests.Team.TeamManagement.TeamManagementTests.RemoveBillingUserFromTeamWithOneBilling() in D:\QA\TCAgent\WD\3ed1d0ebda23a2c5\SQA\WebTests\WebAppTestSuite\Accounts\AccountsTests\Team\TeamManagement\TeamManagementTests.cs:line 715]]>
+                </stack-trace>
+              </failure>
+              <output>
+                <![CDATA[ScreenShot: \\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.Team.TeamManagement.TeamManagementTests.RemoveBillingUserFromTeamWithOneBilling_chrome_mc-qa-win7-64.ad.machiningcloud.com_2018-03-15--22-55-29-1433.png
+]]>
+              </output>
+              <attachments>
+                <attachment>
+                  <filePath>\\fuji\rd\iMachine\SQA\WebTests\Logs\Log_2018-03-15--22-06-11-1332\AccountsTests.Team.TeamManagement.TeamManagementTests.RemoveBillingUserFromTeamWithOneBilling_chrome_mc-qa-win7-64.ad.machiningcloud.com_2018-03-15--22-55-29-1433.png</filePath>
+                  <description><![CDATA[ScreenShot: ]]></description>
+                </attachment>
+              </attachments>
+            </test-case>
+            <test-case id="1-1018" name="RemoveBillingUserWithBillingAccountAndSubscription" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.RemoveBillingUserWithBillingAccountAndSubscription" methodname="RemoveBillingUserWithBillingAccountAndSubscription" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="879252458" result="Passed" start-time="2018-03-16 05:55:29Z" end-time="2018-03-16 05:58:26Z" duration="176.604037" asserts="17">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+            <test-case id="1-1013" name="RemoveUserWithSubscription" fullname="AccountsTests.Team.TeamManagement.TeamManagementTests.RemoveUserWithSubscription" methodname="RemoveUserWithSubscription" classname="AccountsTests.Team.TeamManagement.TeamManagementTests" runstate="Runnable" seed="1396368314" result="Passed" start-time="2018-03-16 05:58:26Z" end-time="2018-03-16 06:01:09Z" duration="163.717788" asserts="9">
+              <properties>
+                <property name="Category" value="Smoke" />
+              </properties>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
