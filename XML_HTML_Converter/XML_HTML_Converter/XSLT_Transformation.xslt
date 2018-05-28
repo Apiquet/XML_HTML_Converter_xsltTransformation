@@ -58,6 +58,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                                         </xsl:for-each>
                                       </span>
                                     </xsl:if>
+                                    <xsl:if test="failure/message">
+                                      <p>
+                                        <xsl:value-of select="failure/message"/>
+                                      </p>
+                                    </xsl:if>
                                   </li>
                                 </ul>
                               </xsl:for-each>
